@@ -1,7 +1,6 @@
 import React from 'react';
-import leaves from '/leaves.jpg'; // Replace with the correct path to your image
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <div>
             <hr />
@@ -56,3 +55,5 @@ export const Footer = () => {
         </div>
     );
 };
+
+export default Footer
