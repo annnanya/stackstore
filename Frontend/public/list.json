@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Science Explorer",
+        "title": "Discover the wonders of science with this comprehensive guide.",
+        "price": 15.99,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331952.jpg?t=st=1725186316~exp=1725189916~hmac=b379061bfc9b9e90006fa7993922ef958e44c49f2db9cf803ea452f224a223f6&w=2000"
+    },
+    {
+        "id": 2,
+        "name": "Cooking Delights",
+        "title": "A collection of delicious recipes for every occasion.",
+        "price": 25.50,
+        "category": "Lifestyle",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331952.jpg?t=st=1725186316~exp=1725189916~hmac=b379061bfc9b9e90006fa7993922ef958e44c49f2db9cf803ea452f224a223f6&w=2000"
+    },
+    {
+        "id": 3,
+        "name": "Mystery Tales",
+        "title": "Thrilling stories that will keep you on the edge of your seat.",
+        "price": 10.99,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331952.jpg?t=st=1725186316~exp=1725189916~hmac=b379061bfc9b9e90006fa7993922ef958e44c49f2db9cf803ea452f224a223f6&w=2000"
+    },
+    {
+        "id": 4,
+        "name": "History Chronicles",
+        "title": "An in-depth exploration of significant historical events.",
+        "price": 18.75,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331950.jpg?t=st=1725186357~exp=1725189957~hmac=988efbbe85f5769c50c5e0952f8007a26b486909ce62ca152ee747e76c0d698a&w=2000"
+    },
+    {
+        "id": 5,
+        "name": "Art and Design",
+        "title": "A visual journey through the world of art and creativity.",
+        "price": 30.00,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331952.jpg?t=st=1725186316~exp=1725189916~hmac=b379061bfc9b9e90006fa7993922ef958e44c49f2db9cf803ea452f224a223f6&w=2000"
+    },
+    {
+        "id": 6,
+        "name": "Tech Trends",
+        "title": "Stay ahead with insights into the latest technology trends.",
+        "price": 22.99,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331952.jpg?t=st=1725186316~exp=1725189916~hmac=b379061bfc9b9e90006fa7993922ef958e44c49f2db9cf803ea452f224a223f6&w=2000"
+    },
+    {
+        "id": 7,
+        "name": "Mindfulness Guide",
+        "title": "Practical tips and techniques for a more mindful life.",
+        "price": 12.49,
+        "category": "Wellness",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149331952.jpg?t=st=1725186316~exp=1725189916~hmac=b379061bfc9b9e90006fa7993922ef958e44c49f2db9cf803ea452f224a223f6&w=2000"
+    }
+]
