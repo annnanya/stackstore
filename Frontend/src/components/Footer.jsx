@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import leaves from '/leaves.jpg'; // Replace with the correct path to your image
 
 export const Footer = () => {
     return (
         <div>
             <hr />
-            <footer className="footer footer-center text-base-content rounded p-10">
+            <footer
+                className="footer footer-center text-base-content rounded p-10 bg-cover bg-center">
                 <nav className="grid grid-flow-col gap-4">
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
@@ -48,9 +50,9 @@ export const Footer = () => {
                     </div>
                 </nav>
                 <aside>
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by Ananya Singh</p>
+                    <p>Copyright © {new Date().getFullYear()} - All rights reserved by Ananya Singh</p>
                 </aside>
             </footer>
         </div>
-    )
-}
+    );
+};

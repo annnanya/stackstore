@@ -7,8 +7,7 @@ const Banner = () => {
                 <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
                     <div className="space-y-8">
                         <h1 className="text-2xl md:text-4xl font-bold">
-                            Hello, welcomes here to learn something{" "}
-                            <span className="text-cyan-500">new everyday!!!</span>
+                            <span className="text-green-600">Hello! </span> Unlock new knowledge every day.
                         </h1>
                         <p className="text-sm md:text-base">
                             Discover knowledge, adventure, and inspiration at your fingertips.
@@ -28,7 +27,7 @@ const Banner = () => {
                             <input type="text" className="grow" placeholder="Email" />
                         </label>
                     </div>
-                    <button className="btn btn-outline btn-info mt-6">Get Started</button>
+                    <button className="btn btn-outline btn-success mt-8">Get Started</button>
                 </div>
                 <div className=" order-1 w-full mt-20 md:w-1/2">
                     <img
