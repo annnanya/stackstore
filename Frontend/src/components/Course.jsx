@@ -16,9 +16,9 @@ const Course = () => {
                     Whether you're a budding author, an avid reader, or simply curious about the world of books, our courses offer something for everyone.
                     Explore, learn, and grow with us as you dive into the endless possibilities of the written word.
                 </p>
-                <Link to="/">
+                {/* <Link to="/">
                     <button className="btn btn-outline btn-success mt-8">Back</button>
-                </Link>
+                </Link> */}
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-4 ">
                 {book.map((item) => (
