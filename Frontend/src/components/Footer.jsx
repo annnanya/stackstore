@@ -6,11 +6,11 @@ const Footer = () => {
             <hr />
             <footer
                 className="footer footer-center text-base-content rounded p-10 bg-cover bg-center">
-                <nav className="grid grid-flow-col gap-4">
+                {/* <nav className="grid grid-flow-col gap-4">
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
                     <a className="link link-hover">Jobs</a>
-                </nav>
+                </nav> */}
                 <nav>
                     <div className="grid grid-flow-col gap-4">
                         <a>

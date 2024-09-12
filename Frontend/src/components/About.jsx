@@ -20,14 +20,14 @@ const AboutPage = () => {
                         academic material. From bestsellers to hidden gems, we strive to be a
                         place where book lovers can always find something new to explore.
                     </p>
-                    <div className="flex justify-center mt-12">
+                    <div className="flex justify-center mt-10">
                         <img
                             src={BookStore}
                             alt="Bookstore Image"
-                            className="rounded-lg shadow-lg md:w-[500px] md:h-[400px] md:ml-12"
+                            className="rounded-lg md:w-[550px] md:h-[420px] md:ml-12"
                         />
                     </div>
-                    <p className="mt-12">
+                    <p className="mt-10">
                         At Book Stack, we believe in the transformative power of stories to inspire, educate,
                         and entertain. Books have the ability to transport readers to different worlds, broaden
                         perspectives, and spark meaningful conversations. Whether you're an avid reader,
