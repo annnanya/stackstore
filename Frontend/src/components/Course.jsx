@@ -6,7 +6,7 @@ import Cards from './Cards';
 const Course = () => {
     const book = list;
     return (
-        <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+        <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-900 dark:text-white">
             <div className="mt-28 items-center justify-center text-center">
                 <h1 className="text-2xl  md:text-4xl">
                     We're delighted to have you <span className="text-green-500">Here!</span>
