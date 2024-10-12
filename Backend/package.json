@@ -1,0 +1,28 @@
+{
+  "name": "stackstore",
+  "version": "1.0.0",
+  "description": "MERN Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annnanya/stackstore.git"
+  },
+  "author": "Ananya Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annnanya/stackstore/issues"
+  },
+  "homepage": "https://github.com/annnanya/stackstore#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
+  }
+}
