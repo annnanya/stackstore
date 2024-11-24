@@ -32,3 +32,5 @@ app.use("/user", userRoute);
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
 });
+
+export default app;
