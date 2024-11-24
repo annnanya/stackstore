@@ -8,12 +8,10 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
-app.use(
-    cors({
-        origin: "*", // Allow all origins (use only for testing)
-        methods: ["GET", "POST", "PUT", "DELETE"],
-    })
-);
+app.use(cors({
+    origin: ['http://localhost:5173', 'https://stackstore-fe.vercel.app'],
+}));
+
 app.use(express.json())
 const port = process.env.PORT || 4000;
 const URI = process.env.MONGODB_URI;
