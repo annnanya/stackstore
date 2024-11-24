@@ -26,8 +26,8 @@ async function connectDB() {
 connectDB();
 
 // defining routes
-app.use("/book", bookRoute);
-app.use("/user", userRoute);
+app.use("/api/book", bookRoute);
+app.use("/api/user", userRoute);
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
