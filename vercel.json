@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "/Backend/index.js"
+        }
+    ],
+    "projects": {
+        "frontend": "./Frontend"
+    },
+    "framework": "vite",
+    "outputDirectory": "dist",
+    "version": 2
+}
