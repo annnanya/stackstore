@@ -9,7 +9,9 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-    origin: ['http://localhost:5173/', 'https://stackstore-fe.vercel.app/'],
+    origin: ['http://localhost:5173', 'https://stackstore-fe.vercel.app'], // Remove trailing slashes
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow necessary methods
+    credentials: true, // Allow credentials if needed (e.g., cookies)
 }));
 
 app.use(express.json())
