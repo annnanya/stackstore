@@ -5,5 +5,5 @@
             "source": "/api/(.*)",
             "destination": "/index.js"
         }
-        }
+    ]
 }
