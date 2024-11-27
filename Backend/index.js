@@ -1,8 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import bookRoute from './routes/book.route.js';
-import userRoute from './routes/user.route.js';
+import bookRoute from './route/book.route.js';
+import userRoute from './route/user.route.js';
 import cors from 'cors';
 
 dotenv.config();
