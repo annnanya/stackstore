@@ -19,10 +19,13 @@ app.use(cors({
 app.use(express.json());
 
 // Connect to MongoDB
-const URI = process.env.MONGODB_URI || 'mongodb+srv://singhananya1616:rRBUrCg68UHnY7jg@bookstack.fkyeu.mongodb.net/?retryWrites=true&w=majority&appName=bookstack';
-mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true })
+const URI = process.env.MONGODB_URI;
+mongoose.connect(URI)
     .then(() => console.log('MongoDB Connected'))
-    .catch(err => console.log('MongoDB Connection Error:', err));
+    .catch((err) => {
+        console.error('Error connecting to MongoDB:', err.message);
+    });
+
 
 // Define API routes
 app.use('/api/book', bookRoute);
