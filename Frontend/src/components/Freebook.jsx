@@ -10,7 +10,7 @@ const Freebook = () => {
     useEffect(() => {
         const getBook = async () => {
             try {
-                const res = await axios.get("https://stackstore-a4roqrwuu-annnanyas-projects.vercel.app/api/book");
+                const res = await axios.get("https://stackstore-iak3ej2dr-annnanyas-projects.vercel.app/book");
 
                 const data = res.data.filter((data) => data.category === "Free");
                 console.log(data);
