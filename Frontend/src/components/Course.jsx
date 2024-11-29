@@ -7,7 +7,7 @@ const Course = () => {
     useEffect(() => {
         const getBook = async () => {
             try {
-                const res = await axios.get(`${process.env.BACKEND_URL}book`);
+                const res = await axios.get("https://stackstore-iak3ej2dr-annnanyas-projects.vercel.app/book");
                 console.log(res.data);
                 setBook(res.data);
             } catch (error) {
