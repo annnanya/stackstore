@@ -2,6 +2,8 @@
 
 Stack Store is an online bookstore where users can browse, purchase, and manage their books. The app includes user authentication (login and signup), and allows users to toggle between light and dark modes for a better viewing experience.
 
+![Stack Store Logo](ss.png)
+
 ## Features
 
 - **User Authentication**: Secure login and signup functionality.
