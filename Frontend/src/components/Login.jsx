@@ -18,7 +18,7 @@ const Login = () => {
             password: data.password,
         };
         await axios
-            .post("https://stackstore-iak3ej2dr-annnanyas-projects.vercel.app/user/login", userInfo)
+            .post(`${process.env.BACKEND_URL}user/login`, userInfo)
             .then((res) => {
                 console.log(res.data);
                 if (res.data) {
