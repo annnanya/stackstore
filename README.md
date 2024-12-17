@@ -27,11 +27,12 @@ Stack Store is an online bookstore where users can browse, purchase, and manage 
 ## Screenshots
 
 - **Signup Page**  
-  ![Signup Page](./images/signup.png)
 
-- **Login Page**  
-  ![Login Page](./images/login.png)
+  <img src="./images/signup.png" alt="Signup Page" width="400px">
 
+- **Login Page** 
+ 
+  <img src="./images/login.png" alt="Login Page" width="400px">
 ---
 
 ## Installation
